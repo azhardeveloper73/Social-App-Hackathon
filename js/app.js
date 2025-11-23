@@ -15,7 +15,7 @@ function setCurrentUser(user) {
 }
 function logout() {
   localStorage.removeItem('currentUser');
-  window.location.href = '/auth/login.html';
+  window.location.href = '/Social-App-Hackathon/auth/login.html';
 }
 
 // ===== Posts =====
