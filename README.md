@@ -10,7 +10,7 @@ This is a fun, front-end only project where users can create posts, like, react,
 ## 🔗 Links
 
 - **GitHub Repository:**(https://github.com/azhardeveloper73/Social-App-Hackathon) 
-- **Live Demo:**(https://.github.io/azuu-mini-social/)
+- **Live Demo:**(https://azhardeveloper73.github.io/Social-App-Hackathon/)
 
 ---
 
