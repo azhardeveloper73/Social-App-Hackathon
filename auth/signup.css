@@ -1,0 +1,74 @@
+/* Signup Page - Neon Theme */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #4A00E0, #8E2DE2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.logo-img {
+  height: 60px;    
+  width: auto;
+  display: block;
+  margin: 0 auto 1rem auto;  
+}
+
+
+.tagline {
+  color: #fff;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 5px #8E2DE2;
+}
+
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.btn-gradient {
+  width: 100%;
+  padding: 0.8rem;
+  background: linear-gradient(135deg, #00F5A0, #00D9F5);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00F5A0, 0 0 30px #00D9F5;
+}
+
+.redirect {
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.redirect a {
+  color: #00D9F5;
+  text-decoration: none;
+}

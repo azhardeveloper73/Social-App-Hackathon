@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AZUU Home Feed</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+</head>
+
+<body>
+  <header>
+    <img src="../assets/logo.svg" alt="AZUU Logo" class="logo-img">
+    <div class="welcome">
+      Welcome, <span id="userName"></span>
+      <button id="logoutBtn" class="btn-gradient-small">Logout</button>
+      <button id="toggleMode" class="btn-gradient-small">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="create-post">
+      <textarea id="postText" placeholder="What's on your mind?"></textarea>
+      <input type="text" id="postImage" placeholder="Image URL (optional)">
+      <button id="postBtn" class="btn-gradient">Post</button>
+    </section>
+
+    <section class="post-controls">
+      <input type="text" id="searchInput" placeholder="Search posts...">
+      <select id="sortSelect">
+        <option value="latest">Latest First</option>
+        <option value="oldest">Oldest First</option>
+        <option value="mostLiked">Most Liked</option>
+      </select>
+    </section>
+
+    <section class="feed" id="feed"></section>
+  </main>
+
+  <div id="editModal" style="display:none;">
+    <textarea id="editText"></textarea>
+    <button id="saveEdit" class="btn-gradient">Save</button>
+    <button id="cancelEdit" class="btn-gradient-small">Cancel</button>
+  </div>
+
+  <script src="../js/app.js"></script>
+  <script src="./home.js"></script>
+</body>
+
+</html>
